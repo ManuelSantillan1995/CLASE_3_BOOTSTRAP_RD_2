@@ -1,3 +1,32 @@
 .bg-color{
-    background-color: aqua;
+    background-color: #C5CAE9;
+}
+
+.jumbotron{
+    background-image: url('../images/paisaje.jpg');
+}
+.travels{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding-bottom: 15px;
+}
+.col-sm{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: justify;
+}
+
+.col-sm a{
+    display: flex;
+    justify-content: center;
 }
